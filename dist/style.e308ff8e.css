@@ -1,0 +1,57 @@
+.landing {
+  background: url(/baywatch.efee0fd3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul img {
+  height: 300px;
+}
+
+h2{
+  margin-left: 25px;
+}
+.underline {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#mainNavbar{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+}
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+.navbar.scrolled {
+  background: rgba(222,192,222,.8);
+  transition: background 500ms;
+}
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
