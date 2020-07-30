@@ -1,9 +1,24 @@
 .landing {
-  background: url(./img/baywatch.jpg) no-repeat center center fixed;
+  background: url(./img/lake/bride.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.pix {
+  width: 450px;
+}
+
+#header{
+  text-align: center;
+    margin: 35px 20px 0px;
+    color: white;
+}
+
+#section {
+  margin-top: 3em;
+  color: white;
 }
 
 body {
@@ -22,10 +37,7 @@ ul img {
 h2{
   margin-left: 25px;
 }
-.underline {
-  text-decoration: underline;
-  font-weight: bolder;
-}
+
 #mainNavbar{
   font-size: 1.5rem;
   font-weight: 100;
@@ -41,6 +53,7 @@ h2{
 
 #mainNavbar .navbar-brand {
   color: #ea1c2c;
+  font-size: .7em;
 }
 
 #headingGroup span {
@@ -48,7 +61,7 @@ h2{
 }
 
 .navbar.scrolled {
-  background: rgba(222,192,222,.8);
+  background: #d9f1f17d;
   transition: background 500ms;
 }
 
