@@ -1,3 +1,8 @@
+html {
+  -webkit-print-color-adjust: exact;
+  -webkit-filter: opacity(1);
+}
+
 .landing {
   background: url(./img/lake/bride.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -21,10 +26,10 @@
   color: white;
 }
 
-body {
+/* body {
   background: #f5d9d5;
   font-family: "Nunito", sans-serif;
-}
+} */
 
 ul {
   list-style: none;
@@ -62,3 +67,133 @@ ul img {
   transition: background 500ms;
 }
 
+#bingo {
+  font-family: 'Noticia Text', serif;
+  display: flex;
+  justify-content: space-around;
+  font-size: 65px;
+  color: #c97f04;
+}
+
+.bingo-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "1 2 3 4 5"
+    "6 7 8 9 10"
+    "11 12 13 14 15"
+    "16 17 18 19 20"
+    "21 22 23 24 25";
+  width: 95vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.bingo-table div {
+  border: #223e40 solid 1px;
+  color: #223e40;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+  margin: 0;
+}
+
+#kelley {
+  color: #617f7f;
+  text-shadow: 1px 1px #223e40;
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+}
+
+.content {
+  background:#efd9a7;
+  font-family: 'Patrick Hand', cursive;
+  margin: 0;
+}
+
+.content img {
+  max-width: 100px;
+}
+
+.center {
+  font-size: 60px !important;
+  font-weight: bold;
+  color: #617f7f !important;
+}
+
+.center span {
+  border: 3px solid  #617f7f;
+  padding: 0 10px;
+  margin: 0;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px 4px #223e40;
+}
+
+.body-shot {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px !important;
+  line-height: .9;
+  color: #ca7e07 !important;
+  -webkit-text-stroke: #af5a05 1.4px
+}
+
+.flash, .cheers, .stach, .tat, .sing, .ben, .proposal, .mem {
+  flex-direction: column;
+}
+
+.sing #serenade {
+  font-family: 'Dancing Script', cursive !important;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #ca7d0c;
+}
+
+.ben div{
+  border: none !important;
+}
+
+.ben img {
+  max-width: 50px;
+}
+
+#propose {
+  font-family: 'Pacifico', cursive;
+  color: #ca7e07 !important;
+  font-size: 26px;
+}
+
+#kel {
+  color: #ca7e07 !important;
+  font-family: 'Noticia Text', serif;
+}
+
+.sauce img {
+  max-width: 70px;
+}
+
+@media print {
+
+  .center span {
+    border: 3px solid  #617f7f;
+    padding: 0 10px;
+    margin: 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px 4px #223e40;
+  }
+
+  #kelley {
+    color: #617f7f;
+    text-shadow: 1px 1px #223e40;
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+  }
+
+}
