@@ -4,7 +4,7 @@ html {
 }
 
 .landing {
-  background: url(/bride.a2d3ca8f.jpg) no-repeat center center fixed;
+  background: url(/boots.e2b49dd4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,6 +13,10 @@ html {
 
 .pix {
   width: inherit;
+}
+
+.navbar-brand {
+  margin: 0 !important;
 }
 
 #header{
@@ -26,10 +30,10 @@ html {
   color: white;
 }
 
-/* body {
-  background: #f5d9d5;
+body {
+  background: #f9d291;
   font-family: "Nunito", sans-serif;
-} */
+}
 
 ul {
   list-style: none;
@@ -41,7 +45,7 @@ ul img {
 }
 
 #mainNavbar{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 100;
 }
 
@@ -54,7 +58,7 @@ ul img {
 }
 
 #mainNavbar .navbar-brand {
-  color: #ea1c2c;
+  color: #fff;
   font-size: .7em;
 }
 
@@ -62,17 +66,32 @@ ul img {
   color: #ea1c2c;
 }
 
+#headingGroup h1 {
+  font-size: 2em;
+  padding: 5px;
+}
+
+.navbar {
+  background:#2f1708d9;
+}
+
 .navbar.scrolled {
-  background: #d9f1f17d;
+  background: #2f1708d9;
   transition: background 500ms;
 }
 
+
+
+
+
+
+/*
 #bingo {
   font-family: 'Noticia Text', serif;
   display: flex;
   justify-content: space-around;
   font-size: 65px;
-  color: #c97f04;
+  color: #617f7f;
 }
 
 .bingo-table {
@@ -81,9 +100,9 @@ ul img {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px 10px;
   grid-template-areas:
-    "1 2 3 4 5"
+    "1 12 3 4 5"
     "6 7 8 9 10"
-    "11 12 13 14 15"
+    "11 2 13 14 15"
     "16 17 18 19 20"
     "21 22 23 24 25";
   width: 95vw;
@@ -196,7 +215,7 @@ ul img {
     font-size: 32px;
   }
 
-}
+} */
 
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
